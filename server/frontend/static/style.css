@@ -1,5 +1,6 @@
 img{
   width: 60%;
+  height: 370px;
   align-self: center;
 }
 
@@ -123,4 +124,52 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.divide-horizontal {
+    width: 95%;
+    margin: 20px auto;
+    border-top: 2px solid #ccc;
+}
+
+.divide-vertical {
+    height: 310px;
+    margin-left: -50px;
+    width: 2px;
+    background-color: black;
+}
+
+.card-bottom {
+    display : flex;
+}
+
+.img_icon_contact {
+  align-self: center;
+  transform : scale(0.5,0.75);
+  padding : 0 0 20 0 ;
+  margin-top: -30px ;
+}
+
+.card-contact{
+  width: 70%;
+  margin: 50px auto;
+  border: 5px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.img-cars-contact {
+    display:block;
+    margin: 20px auto 0 auto;
+    max-width: : 100%;
+    height: auto ;
+}
+
+.contact-content {
+    color :rgb(19, 104, 216);
+    text-align : center;
+    line-height: 0.75;
+    padding: 5 5 5 75;
 }
